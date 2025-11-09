@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free Caption Generator</title>
+</head>
+<body>
+    <h1>Instagram Caption Generator</h1>
+    <button onclick="generateCaption()">Give Me a Caption!</button>
+    <p id="caption"></p>
+
+    <script>
+    function generateCaption() {
+        const captions = [
+            "Living my best life ✨",
+            "Good vibes only 💫", 
+            "Making memories 📸",
+            "Coffee first, problems later ☕",
+            "Coffee funday 🎉"
+        ];
+        const randomCaption = captions[Math.floor(Math.random() * captions.length)];
+        document.getElementById("caption").textContent = randomCaption;
+    }
+    </script>
+</body>
+</hSundayayeengngng
